@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "University of Florida Informatics Institue 2016-08-17"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: mcollins@acis.ufl.edu
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -30,8 +30,10 @@ swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
-workshop_repo: "https://github.com/swcarpentry/workshop-template"
-workshop_site: "https://swcarpentry.github.io/workshop-template"
+workshop_repo: "https://github.com/acislab/2016-08-17-UF-Informatics-Institute"
+workshop_site: "https://acislab.github.io/2016-08-17-UF-Informatics-Institute/"
+
+swc_installer: "https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe"
 
 # Surveys.
 pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
