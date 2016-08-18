@@ -5,11 +5,12 @@
 
 
 # Download database from source if not present
-sqlite_url <- ""
+sqlite_url <- "https://acislab.github.io/2016-08-17-UF-Informatics-Institute/survey.sqlite"
 sqlite_file <- "data/survey.sqlite"
 if (!file.exists(sqlite_file)){
   download.file(url=sqlite_url,
-                destfile=sqlite_file)
+                destfile=sqlite_file,
+                mode="wb")
 }
 
 # Connect to the database
